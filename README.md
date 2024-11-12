@@ -1,16 +1,16 @@
 # english-learning-chatbot
 BOTO is a conversational AI bot designed to help users improve their English. It evaluates sentences, provides a percentage rating for correctness, suggests improvements, and offers engaging responses. BOTO aims to be a friendly assistant that helps users learn English in a fun and interactive way.
 
-Features
+Features :
 Correctness Evaluation: Rates the accuracy of each sentence.
 Suggestions for Improvement: Provides corrected sentences.
 Engaging Responses: Responds naturally to keep conversations lively and educational.
 Few-Shot Prompting: Guided by examples to maintain consistent responses.
-How It Works
+How It Works :
 BOTO leverages Google’s Generative AI API to process user inputs and generate responses that help users with English sentence correction. The model is pre-configured with few-shot examples to demonstrate the expected input-output pattern, making it capable of understanding and responding accurately.
-Prerequisites
+Prerequisites :
 Python 3.6 or higher
-A Google Cloud account with access to the Google Generative AI API
+An access to the Google Generative AI API
 API key for the Google Generative AI API
 Example Interaction :
 You: HALO IM BATBOT WHIT IST YAR NAM
@@ -31,5 +31,5 @@ BOTO: output: Your sentence is approximately 40% correct. A more accurate way to
 Customization
 Few-Shot Prompting: Modify prompt_template in code to adjust example sentences, improving BOTO’s ability to understand specific correction patterns.
 Conversation Context: Customize the initial instructions to tailor BOTO’s tone or response structure.
-Contributing
+Contributing :
 Contributions are welcome! If you’d like to improve BOTO’s features or add new functionality, please submit a pull request or create an issue.
